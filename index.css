@@ -22,7 +22,7 @@ body {
 }
 
 .nav-bar.scrolled {
-    background-color: rgba(2, 6, 13, 0.6);
+    background-color: rgba(2, 6, 13, 0.4);
     backdrop-filter: blur(10px);
     padding: 15px 80px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -202,8 +202,28 @@ body {
     content: '→';
     margin-left: 2px;
     font-weight: 700;
+    transition: all 0.5s ease;
 }
 
 .btn-primary:hover::after {
     margin-left: 7px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 20px;
+}
+
+.stat-item h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.stat-item p {
+    color: #565c6c;
+    font-size: 1.1rem;
+    margin-right: 70px;
 }
