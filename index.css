@@ -227,3 +227,15 @@ body {
     font-size: 1.1rem;
     margin-right: 70px;
 }
+
+.badge {
+    background: rgba(30, 58, 138, 0.2);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    gap: 10px;
+    color: #8ebff6;
+    margin-left: 670px;
+}
